@@ -2,7 +2,7 @@
   <h1 align="center">Jeong's Cook(진행중) ✨</h1>
 
   <p align="center">
-React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대해 레시피를 제공하고 있습니다 아직 기획 단계에 있어서 URL은 따로 없습니다 어느정도 틀이 나오면 그때 올리도록 하겠습니다😊
+React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대해 레시피를 제공하고 있습니다 <br/현재까지 진행 중인 작업물은 <a href="https://jeonghwan96.github.io/JeongKimCook/">여기서</a>에서 확인하실 수 있습니다.😊
   <br/>
   <br/> 
    변경되는대로 바로바로 올리겠습니다! <br/>
