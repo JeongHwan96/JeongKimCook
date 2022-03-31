@@ -7,13 +7,15 @@ React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대�
   <br/>
   <br/> 
   수정,추가 되는 부분이 생기면 바로바로 올리겠습니다! <br/>
+  <img src="https://img.shields.io/github/last-commit/JeongHwan96/JeongKimCook" />
   <br/>
   <br/>
   🛠  Technical Skills 
   <br/>
   <br/>
     <img src="https://img.shields.io/badge/-React-0088CC?style=flat&logo=React"/>
-     <img src="https://img.shields.io/badge/-Sass-CC2277?style=flat&logo=Sass"/>
+    <img src="https://img.shields.io/badge/-Sass-CC2277?style=flat&logo=Sass"/>
+    <img src="https://img.shields.io/badge/-Swiper-6332F6?style=flat&logo=Swiper"/>
   <br/>
   <br/>
   
