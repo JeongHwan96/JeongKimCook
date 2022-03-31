@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/JeongKimCook/static/css/main.4e4d3aab.css",
+    "main.js": "/JeongKimCook/static/js/main.4a0c7112.js",
+    "static/media/Logo1.png": "/JeongKimCook/static/media/Logo1.4bda1c315c108f6d7b2e.png",
+    "index.html": "/JeongKimCook/index.html",
+    "main.4e4d3aab.css.map": "/JeongKimCook/static/css/main.4e4d3aab.css.map",
+    "main.4a0c7112.js.map": "/JeongKimCook/static/js/main.4a0c7112.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4d3aab.css",
+    "static/js/main.4a0c7112.js"
+  ]
+}
