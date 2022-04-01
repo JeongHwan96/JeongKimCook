@@ -34,6 +34,11 @@ React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대�
 
 ## Develop History 📜
 
+2022-04-01
+
+- Detail Page Section 초안 작성
+<img src="https://user-images.githubusercontent.com/76175940/161270561-6ba47b2a-5ca9-483a-b035-7282ec78d57e.jpg" width="400" height="400" />
+
 2022-03-31
 
 - MainPage 제작 완료
