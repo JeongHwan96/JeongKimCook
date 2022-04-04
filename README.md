@@ -2,17 +2,20 @@
   <h1 align="center">Jeong's Cook(진행중) ✨</h1>
 
   <p align="center">
-React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대해 레시피를 제공하고 있습니다 아직 기획 단계에 있어서 URL은 따로 없습니다 어느정도 틀이 나오면 그때 올리도록 하겠습니다😊
+React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대해 레시피를 제공하고 있습니다 <br/>
+  현재까지 진행 중인 작업물은 <a href="https://jeonghwan96.github.io/JeongKimCook/">여기서</a>에서 확인하실 수 있습니다.😊
   <br/>
   <br/> 
-   변경되는대로 바로바로 올리겠습니다! <br/>
+  수정,추가 되는 부분이 생기면 바로바로 올리겠습니다! <br/>
+  <img src="https://img.shields.io/github/last-commit/JeongHwan96/JeongKimCook" />
   <br/>
   <br/>
   🛠  Technical Skills 
   <br/>
   <br/>
     <img src="https://img.shields.io/badge/-React-0088CC?style=flat&logo=React"/>
-     <img src="https://img.shields.io/badge/-Sass-CC2277?style=flat&logo=Sass"/>
+    <img src="https://img.shields.io/badge/-Sass-CC2277?style=flat&logo=Sass"/>
+    <img src="https://img.shields.io/badge/-Swiper-6332F6?style=flat&logo=Swiper"/>
   <br/>
   <br/>
   
@@ -30,6 +33,11 @@ React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대�
 
 
 ## Develop History 📜
+
+2022-04-01
+
+- Detail Page Section 초안 작성
+<img src="https://user-images.githubusercontent.com/76175940/161270561-6ba47b2a-5ca9-483a-b035-7282ec78d57e.jpg" width="400" height="400" />
 
 2022-03-31
 
