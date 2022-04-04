@@ -1,5 +1,6 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 // swiper style
 import "swiper/css";
@@ -11,7 +12,14 @@ import LogoImg from "../image/Logo2.jpg";
 import Button from "./Button";
 import Header from "./Header";
 
-const KoreanFood = () => {
+const KoreanFood = ({ id }) => {
+  const navigate = useNavigate();
+
+  const goDetail = () => {
+    navigate(`/Detail/${id}`);
+    console.log(id);
+  };
+
   return (
     <>
       <Header headText={"한식"} />
@@ -24,7 +32,7 @@ const KoreanFood = () => {
         pagination={{ clickable: true }}
       >
         <SwiperSlide style={{ textAlign: "center", cursor: "pointer" }}>
-          <img src={LogoImg} alt="" />
+          <img src={LogoImg} alt="" onClick={goDetail} />
         </SwiperSlide>
         <SwiperSlide style={{ textAlign: "center", cursor: "pointer" }}>
           <img src={LogoImg} alt="" />
