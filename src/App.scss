@@ -124,7 +124,15 @@ table {
   border-spacing: 0;
 }
 
-// Start
+// ********************************** START *************************
+
+// Button style
+.Button_nagative {
+  background: #fd565f;
+}
+.Button_positive {
+  background-color: #64c964;
+}
 
 body {
   background-color: #f1f1f2;
@@ -193,4 +201,231 @@ header {
 .footerText {
   text-align: center;
   height: 10%;
+}
+
+// Editor
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@500&family=Roboto:ital,wght@1,400;1,700&family=Yeon+Sung&display=swap");
+
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nanum Pen Script";
+  height: 100vh;
+}
+
+#root {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  .App {
+    min-height: 100vh;
+    padding: 0 20px 0 20px;
+    // 버튼 스타일
+    .Button {
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      padding: 2% 5% 2% 5%;
+      font-size: 18px;
+      white-space: nowrap;
+      font-family: "Nanum Pen Script";
+    }
+    .Button_nagative {
+      background: #fd565f;
+    }
+    .Button_positive {
+      background-color: #64c964;
+    }
+    // 헤더 스타일
+    header {
+      padding: 20px 0 20px 0;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e2e2e2;
+      button {
+        font-family: "Nanum Pen Script";
+      }
+      div {
+        display: flex;
+      }
+      .head_text {
+        width: 50%;
+        font-size: 25px;
+        justify-content: center;
+      }
+      .head_btn_left {
+        width: 25%;
+        justify-content: start;
+      }
+      .head_btn_right {
+        width: 25%;
+        justify-content: end;
+      }
+    }
+    .DiaryList {
+      .menu_wrapper {
+        display: flex;
+        margin: 20px 0 30px 0;
+        justify-content: space-between;
+        .left_col {
+          .ControlMenu {
+            font-family: "Nanum Pen Script";
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            padding: 10px;
+            background-color: #ececec;
+            cursor: pointer;
+          }
+        }
+        .right_col {
+          flex-grow: 1;
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .DiaryItem {
+      padding: 15px 0 15px 0;
+      border-bottom: 1px solid #e2e2e2;
+      display: flex;
+      justify-content: space-between;
+      .emotion_img_wrapper {
+        cursor: pointer;
+        width: 10%;
+        img {
+          width: 100%;
+        }
+      }
+      .info_wrapper {
+        width: 100%;
+        margin: 0 0 0 5%;
+        cursor: pointer;
+        .diary_date {
+          font-size: 2rem;
+          font-weight: 700;
+        }
+        .diray_content_preview {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    // 새 리뷰쓰기
+    .reviewHeader {
+      section {
+        margin-bottom: 10%;
+        h4 {
+          font-weight: bold;
+          font-size: 1.7rem;
+        }
+        .date_Check {
+          input {
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            background-color: #ececec;
+            padding: 2%;
+            font-family: "Nanum Pen Script";
+            font-size: 1.2rem;
+          }
+        }
+        .emotion_Check {
+          border-radius: 4px;
+          display: grid;
+          grid-template-columns: repeat(5, auto);
+          .EmotionItem {
+            padding: 20px 0 20px 0;
+            background-color: #ececec;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 50%;
+              margin-bottom: 5%;
+            }
+            span {
+              font-size: 1.5rem;
+            }
+          }
+          .EmotionItem1 {
+            background-color: #fd565f;
+          }
+          .EmotionItem2 {
+            background-color: #fd8446;
+          }
+          .EmotionItem3 {
+            background-color: #fdce17;
+          }
+          .EmotionItem4 {
+            background-color: #9dd772;
+          }
+          .EmotionItem5 {
+            background-color: #64c964;
+          }
+        }
+        textarea {
+          padding: 2%;
+          resize: none;
+          width: 100%;
+          min-height: 150px;
+          border: none;
+          border-radius: 5px;
+          background-color: #ececec;
+          font-size: 1.2rem;
+          font-weight: bold;
+          font-family: "Nanum Pen Script";
+          box-sizing: border-box;
+        }
+      }
+      .CC_Button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    // 다이어리 상세보기
+    .detail_emotion {
+      text-align: center;
+      h4,
+      div {
+        font-size: 2rem;
+      }
+    }
+    .detail_content {
+      margin-top: 20%;
+      text-align: center;
+      h4,
+      div {
+        font-size: 2rem;
+      }
+      div {
+        padding: 5%;
+        background-color: #ececec;
+        border-radius: 5px;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 2.5;
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .App {
+    width: 640px;
+  }
+}
+
+@media (max-width: 650px) {
+  .App {
+    width: 90vw;
+  }
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@500&family=Roboto:ital,wght@1,400;1,700&family=Yeon+Sung&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -12,6 +13,10 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
 
 table { border-collapse: collapse; border-spacing: 0; }
+
+.Button_nagative { background: #fd565f; }
+
+.Button_positive { background-color: #64c964; }
 
 body { background-color: #f1f1f2; }
 
@@ -38,3 +43,89 @@ header .rightContent .Button { cursor: pointer; border: none; border-radius: 6%;
 .KoreanFood, .EuropeFood, .Dessert { margin-top: 2%; }
 
 .footerText { text-align: center; height: 10%; }
+
+body { background-color: #f6f6f6; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "Nanum Pen Script"; height: 100vh; }
+
+#root { background-color: #fff; -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
+
+#root .App { min-height: 100vh; padding: 0 20px 0 20px; }
+
+#root .App .Button { cursor: pointer; border: none; border-radius: 4px; padding: 2% 5% 2% 5%; font-size: 18px; white-space: nowrap; font-family: "Nanum Pen Script"; }
+
+#root .App .Button_nagative { background: #fd565f; }
+
+#root .App .Button_positive { background-color: #64c964; }
+
+#root .App header { padding: 20px 0 20px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-bottom: 1px solid #e2e2e2; }
+
+#root .App header button { font-family: "Nanum Pen Script"; }
+
+#root .App header div { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+#root .App header .head_text { width: 50%; font-size: 25px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#root .App header .head_btn_left { width: 25%; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; }
+
+#root .App header .head_btn_right { width: 25%; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; }
+
+#root .App .DiaryList .menu_wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; margin: 20px 0 30px 0; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+#root .App .DiaryList .menu_wrapper .left_col .ControlMenu { font-family: "Nanum Pen Script"; font-size: 1.1rem; border: none; border-radius: 4px; margin-right: 10px; padding: 10px; background-color: #ececec; cursor: pointer; }
+
+#root .App .DiaryList .menu_wrapper .right_col { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+
+#root .App .DiaryList .menu_wrapper .right_col button { width: 100%; }
+
+#root .App .DiaryItem { padding: 15px 0 15px 0; border-bottom: 1px solid #e2e2e2; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+#root .App .DiaryItem .emotion_img_wrapper { cursor: pointer; width: 10%; }
+
+#root .App .DiaryItem .emotion_img_wrapper img { width: 100%; }
+
+#root .App .DiaryItem .info_wrapper { width: 100%; margin: 0 0 0 5%; cursor: pointer; }
+
+#root .App .DiaryItem .info_wrapper .diary_date { font-size: 2rem; font-weight: 700; }
+
+#root .App .DiaryItem .info_wrapper .diray_content_preview { font-size: 1.4rem; }
+
+#root .App .reviewHeader section { margin-bottom: 10%; }
+
+#root .App .reviewHeader section h4 { font-weight: bold; font-size: 1.7rem; }
+
+#root .App .reviewHeader section .date_Check input { cursor: pointer; border: none; border-radius: 4px; background-color: #ececec; padding: 2%; font-family: "Nanum Pen Script"; font-size: 1.2rem; }
+
+#root .App .reviewHeader section .emotion_Check { border-radius: 4px; display: -ms-grid; display: grid; -ms-grid-columns: (auto)[5]; grid-template-columns: repeat(5, auto); }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem { padding: 20px 0 20px 0; background-color: #ececec; cursor: pointer; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem img { width: 50%; margin-bottom: 5%; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem span { font-size: 1.5rem; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem1 { background-color: #fd565f; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem2 { background-color: #fd8446; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem3 { background-color: #fdce17; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem4 { background-color: #9dd772; }
+
+#root .App .reviewHeader section .emotion_Check .EmotionItem5 { background-color: #64c964; }
+
+#root .App .reviewHeader section textarea { padding: 2%; resize: none; width: 100%; min-height: 150px; border: none; border-radius: 5px; background-color: #ececec; font-size: 1.2rem; font-weight: bold; font-family: "Nanum Pen Script"; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#root .App .reviewHeader .CC_Button { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#root .App .detail_emotion { text-align: center; }
+
+#root .App .detail_emotion h4, #root .App .detail_emotion div { font-size: 2rem; }
+
+#root .App .detail_content { margin-top: 20%; text-align: center; }
+
+#root .App .detail_content h4, #root .App .detail_content div { font-size: 2rem; }
+
+#root .App .detail_content div { padding: 5%; background-color: #ececec; border-radius: 5px; word-break: keep-all; overflow-wrap: break-word; line-height: 2.5; }
+
+@media (min-width: 650px) { .App { width: 640px; } }
+
+@media (max-width: 650px) { .App { width: 90vw; } }
