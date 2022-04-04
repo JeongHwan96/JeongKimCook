@@ -34,6 +34,11 @@ React를 사용하여 만든 페이지 이며 직접 만들어본 요리에 대�
 
 ## Develop History 📜
 
+2022-04-05
+
+- Main Page Header 부분 임시 버튼 추가 
+- 글쓰기 기능 구현 
+
 2022-04-01
 
 - Detail Page Section 초안 작성
