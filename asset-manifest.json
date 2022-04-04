@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/JeongKimCook/static/css/main.4e4d3aab.css",
-    "main.js": "/JeongKimCook/static/js/main.bc5739f7.js",
+    "main.css": "/JeongKimCook/static/css/main.35390c28.css",
+    "main.js": "/JeongKimCook/static/js/main.0148056a.js",
     "static/media/Logo1.png": "/JeongKimCook/static/media/Logo1.4bda1c315c108f6d7b2e.png",
     "index.html": "/JeongKimCook/index.html",
-    "main.4e4d3aab.css.map": "/JeongKimCook/static/css/main.4e4d3aab.css.map",
-    "main.bc5739f7.js.map": "/JeongKimCook/static/js/main.bc5739f7.js.map"
+    "main.35390c28.css.map": "/JeongKimCook/static/css/main.35390c28.css.map",
+    "main.0148056a.js.map": "/JeongKimCook/static/js/main.0148056a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e4d3aab.css",
-    "static/js/main.bc5739f7.js"
+    "static/css/main.35390c28.css",
+    "static/js/main.0148056a.js"
   ]
 }
